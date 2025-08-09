@@ -1,0 +1,8 @@
+{% extends "admin/change_form.html" %}
+{% block submit_buttons_bottom %}
+    {{ block.super }}
+    {% if custom_buttons %}
+        <a class="button" href="{{ custom_buttons.delete_reports_of_same_type_url }}">Bu soru için aynı türdeki tüm raporları sil</a>
+        <a class="button" href="{{ custom_buttons.delete_all_reports_for_question_url }}">Bu soru için tüm raporları sil</a>
+    {% endif %}
+{% endblock %}

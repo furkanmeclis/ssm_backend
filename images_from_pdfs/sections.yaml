@@ -1,0 +1,447 @@
+AYT:
+  2018:
+    sections:
+      turkdili-edebiyat-testi: 40
+      sosyal-testi: 46
+      matematik-testi: 40
+      fen-testi: 40
+  2019:
+    sections:
+      turkdili-edebiyat-testi: 40
+      sosyal-testi: 46
+      matematik-testi: 40
+      fen-testi: 40
+  2020:
+    sections:
+      turkdili-edebiyat-testi: 40
+      sosyal-testi: 46
+      matematik-testi: 40
+      fen-testi: 40
+  2021:
+    sections:
+      turkdili-edebiyat-testi: 40
+      sosyal-testi: 46
+      matematik-testi: 40
+      fen-testi: 40
+  2022:
+    sections:
+      turkdili-edebiyat-testi: 40
+      sosyal-testi: 46
+      matematik-testi: 40
+      fen-testi: 40
+  2023:
+    sections:
+      turkdili-edebiyat-testi: 40
+      sosyal-testi: 46
+      matematik-testi: 40
+      fen-testi: 40
+  2024:
+    sections:
+      turkdili-edebiyat-testi: 40
+      sosyal-testi: 46
+      matematik-testi: 40
+      fen-testi: 40
+
+TYT:
+  2018:
+    sections:
+      turkce-testi: 40
+      sosyal-bilimler-testi: 25
+      matematik-testi: 40
+      fen-testi: 20
+  2019:
+    sections:
+      turkce-testi: 40
+      sosyal-bilimler-testi: 25
+      matematik-testi: 40
+      fen-testi: 20
+  2020:
+    sections:
+      turkce-testi: 40
+      sosyal-bilimler-testi: 25
+      matematik-testi: 40
+      fen-testi: 20
+  2021:
+    sections:
+      turkce-testi: 40
+      sosyal-bilimler-testi: 25
+      matematik-testi: 40
+      fen-testi: 20
+  2022:
+    sections:
+      turkce-testi: 40
+      sosyal-bilimler-testi: 25
+      matematik-testi: 40
+      fen-testi: 20
+  2023:
+    sections:
+      turkce-testi: 40
+      sosyal-bilimler-testi: 25
+      matematik-testi: 40
+      fen-testi: 20
+  2024:
+    sections:
+      turkce-testi: 40
+      sosyal-bilimler-testi: 25
+      matematik-testi: 40
+      fen-testi: 20
+
+ALES:
+  2013:
+    sections:
+      ales-1-sayisal-1-testi: 50
+      ales-1-sayisal-2-testi: 50
+      ales-1-sozel-1-testi: 50
+      ales-1-sozel-2-testi: 50
+      ales-2-sayisal-1-testi: 50
+      ales-2-sayisal-2-testi: 50
+      ales-2-sozel-1-testi: 50
+      ales-2-sozel-2-testi: 50
+  2014:
+    sections:
+      ales-1-sayisal-1-testi: 40
+      ales-1-sayisal-2-testi: 40
+      ales-1-sozel-1-testi: 40
+      ales-1-sozel-2-testi: 40
+      ales-2-sayisal-1-testi: 40
+      ales-2-sayisal-2-testi: 40
+      ales-2-sozel-1-testi: 40
+      ales-2-sozel-2-testi: 40
+  2015:
+    sections:
+      ales-1-sayisal-1-testi: 40
+      ales-1-sayisal-2-testi: 40
+      ales-1-sozel-1-testi: 40
+      ales-1-sozel-2-testi: 40
+      ales-2-sayisal-1-testi: 40
+      ales-2-sayisal-2-testi: 40
+      ales-2-sozel-1-testi: 40
+      ales-2-sozel-2-testi: 40
+  2016:
+    sections:
+      ales-1-sayisal-1-testi: 40
+      ales-1-sayisal-2-testi: 40
+      ales-1-sozel-1-testi: 40
+      ales-1-sozel-2-testi: 40
+      ales-2-sayisal-1-testi: 40
+      ales-2-sayisal-2-testi: 40
+      ales-2-sozel-1-testi: 40
+      ales-2-sozel-2-testi: 39
+  2017:
+    sections:
+      ales-1-sayisal-1-testi: 40
+      ales-1-sayisal-2-testi: 40
+      ales-1-sozel-1-testi: 40
+      ales-1-sozel-2-testi: 40
+      ales-2-sayisal-1-testi: 50
+      ales-2-sozel-1-testi: 50
+  2018:
+    sections:
+      ales-1-sayisal-1-testi: 50
+      ales-1-sozel-1-testi: 50
+      ales-2-sayisal-1-testi: 50
+      ales-2-sozel-1-testi: 50
+      ales-3-sayisal-1-testi: 50
+      ales-3-sozel-1-testi: 50
+  2019:
+    sections:
+      ales-1-sayisal-1-testi: 50
+      ales-1-sozel-1-testi: 50
+      ales-2-sayisal-1-testi: 50
+      ales-2-sozel-1-testi: 50
+      ales-3-sayisal-1-testi: 50
+      ales-3-sozel-1-testi: 50
+  2020:
+    sections:
+      ales-1-sayisal-1-testi: 50
+      ales-1-sozel-1-testi: 50
+      ales-2-sayisal-1-testi: 50
+      ales-2-sozel-1-testi: 50
+  2021:
+    sections:
+      ales-1-sayisal-1-testi: 50
+      ales-1-sozel-1-testi: 50
+      ales-2-sayisal-1-testi: 50
+      ales-2-sozel-1-testi: 50
+      ales-3-sayisal-1-testi: 50
+      ales-3-sozel-1-testi: 50
+  2022:
+    sections:
+      ales-1-sayisal-1-testi: 50
+      ales-1-sozel-1-testi: 50
+      ales-2-sayisal-1-testi: 50
+      ales-2-sozel-1-testi: 50
+      ales-3-sayisal-1-testi: 50
+      ales-3-sozel-1-testi: 50
+  2023:
+    sections:
+      ales-1-sayisal-1-testi: 50
+      ales-1-sozel-1-testi: 50
+      ales-2-sayisal-1-testi: 50
+      ales-2-sozel-1-testi: 50
+      ales-3-sayisal-1-testi: 50
+      ales-3-sozel-1-testi: 50
+  2024:
+    sections:
+      ales-1-sayisal-1-testi: 50
+      ales-1-sozel-1-testi: 50
+      ales-2-sayisal-1-testi: 50
+      ales-2-sozel-1-testi: 50
+
+KPSS:
+  2013:
+    sections:
+      genel-yetenek-testi: 59
+      genel-kultur-testi: 60
+  2014:
+    sections:
+      genel-yetenek-testi: 60
+      genel-kultur-testi: 59
+  2015:
+    sections:
+      genel-yetenek-testi: 60
+      genel-kultur-testi: 60
+  2016:
+    sections:
+      genel-yetenek-testi: 60
+      genel-kultur-testi: 60
+  2017:
+    sections:
+      genel-yetenek-testi: 60
+      genel-kultur-testi: 60
+  2018:
+    sections:
+      genel-yetenek-testi: 60
+      genel-kultur-testi: 60
+  2019:
+    sections:
+      genel-yetenek-testi: 60
+      genel-kultur-testi: 60
+  2020:
+    sections:
+      genel-yetenek-testi: 60
+      genel-kultur-testi: 60
+  2021:
+    sections:
+      genel-yetenek-testi: 60
+      genel-kultur-testi: 60
+  2022:
+    sections:
+      genel-yetenek-testi: 60
+      genel-kultur-testi: 60
+  2023:
+    sections:
+      genel-yetenek-testi: 60
+      genel-kultur-testi: 60
+  2024:
+    sections:
+      genel-yetenek-testi: 60
+      genel-kultur-testi: 60
+
+MSÜ:
+  2018:
+    sections:
+      turkce-testi: 40
+      sosyal-bilimler-testi: 25
+      matematik-testi: 40
+      fen-testi: 20
+  2019:
+    sections:
+      turkce-testi: 40
+      sosyal-bilimler-testi: 25
+      matematik-testi: 40
+      fen-testi: 20
+  2020:
+    sections:
+      turkce-testi: 40
+      sosyal-bilimler-testi: 25
+      matematik-testi: 40
+      fen-testi: 20
+  2021:
+    sections:
+      turkce-testi: 40
+      sosyal-bilimler-testi: 25
+      matematik-testi: 40
+      fen-testi: 20
+  2022:
+    sections:
+      turkce-testi: 40
+      sosyal-bilimler-testi: 25
+      matematik-testi: 40
+      fen-testi: 20
+  2023:
+    sections:
+      turkce-testi: 40
+      sosyal-bilimler-testi: 25
+      matematik-testi: 40
+      fen-testi: 20
+  2024:
+    sections:
+      turkce-testi: 40
+      sosyal-bilimler-testi: 25
+      matematik-testi: 40
+
+YDT:
+  2013:
+    sections:
+      almanca-testi: 80
+      fransizca-testi: 80
+      ingilizce-testi: 80
+  2014:
+    sections:
+      almanca-testi: 80
+      fransizca-testi: 80
+      ingilizce-testi: 80
+  2015:
+    sections:
+      almanca-testi: 80
+      fransizca-testi: 80
+      ingilizce-testi: 80
+  2016:
+    sections:
+      almanca-testi: 80
+      fransizca-testi: 80
+      ingilizce-testi: 80
+  2017:
+    sections:
+      almanca-testi: 80
+      fransizca-testi: 80
+      ingilizce-testi: 80
+  2018:
+    sections:
+      almanca-testi: 80
+      arapca-testi: 80
+      fransizca-testi: 80
+      ingilizce-testi: 80
+      rusca-testi: 80
+  2019:
+    sections:
+      almanca-testi: 80
+      arapca-testi: 80
+      fransizca-testi: 80
+      ingilizce-testi: 80
+      rusca-testi: 80
+  2020:
+    sections:
+      almanca-testi: 80
+      arapca-testi: 80
+      fransizca-testi: 80
+      ingilizce-testi: 80
+      rusca-testi: 80
+  2021:
+    sections:
+      almanca-testi: 80
+      arapca-testi: 80
+      fransizca-testi: 80
+      ingilizce-testi: 80
+      rusca-testi: 80
+  2022:
+    sections:
+      almanca-testi: 80
+      arapca-testi: 80
+      fransizca-testi: 80
+      ingilizce-testi: 80
+      rusca-testi: 80
+  2023:
+    sections:
+      almanca-testi: 80
+      arapca-testi: 80
+      fransizca-testi: 80
+      ingilizce-testi: 80
+      rusca-testi: 80
+  2024:
+    sections:
+      almanca-testi: 80
+      arapca-testi: 80
+      fransizca-testi: 80
+      ingilizce-testi: 80
+      rusca-testi: 80
+
+YGS:
+  2013:
+    sections:
+      turkce-testi: 40
+      sosyal-bilimler-testi: 45
+      matematik-testi: 40
+      fen-testi: 40
+  2014:
+    sections:
+      turkce-testi: 40
+      sosyal-bilimler-testi: 45
+      matematik-testi: 40
+      fen-testi: 40
+  2015:
+    sections:
+      turkce-testi: 39
+      sosyal-bilimler-testi: 45
+      matematik-testi: 40
+      fen-testi: 40
+  2016:
+    sections:
+      turkce-testi: 40
+      sosyal-bilimler-testi: 45
+      matematik-testi: 40
+      fen-testi: 40
+  2017:
+    sections:
+      turkce-testi: 40
+      sosyal-bilimler-testi: 45
+      matematik-testi: 40
+      fen-testi: 40
+
+LYS:
+  2013:
+    sections:
+      matematik-testi: 50
+      geometri-testi: 30
+      kimya-testi: 30
+      biyoloji-testi: 30
+      fizik-testi: 30
+      cografya-testi: 38
+      turkdili-edebiyat-testi: 56
+      sosyal-bilimler-testi: 40
+      tarih-testi: 44
+  2014:
+    sections:
+      matematik-testi: 50
+      geometri-testi: 29
+      kimya-testi: 30
+      biyoloji-testi: 30
+      fizik-testi: 30
+      cografya-testi: 38
+      turkdili-edebiyat-testi: 56
+      sosyal-bilimler-testi: 40
+      tarih-testi: 44
+  2015:
+    sections:
+      matematik-testi: 50
+      geometri-testi: 30
+      kimya-testi: 28
+      biyoloji-testi: 30
+      fizik-testi: 30
+      cografya-testi: 38
+      turkdili-edebiyat-testi: 56
+      sosyal-bilimler-testi: 40
+      tarih-testi: 44
+  2016:
+    sections:
+      matematik-testi: 50
+      geometri-testi: 30
+      kimya-testi: 30
+      biyoloji-testi: 30
+      fizik-testi: 30
+      cografya-testi: 38
+      turkdili-edebiyat-testi: 56
+      sosyal-bilimler-testi: 40
+      tarih-testi: 44
+  2017:
+    sections:
+      sayisal-testi: 80
+      biyoloji-testi: 30
+      fizik-testi: 30
+      kimya-testi: 30
+      cografya-testi: 38
+      turkdili-edebiyat-testi: 56
+      sosyal-bilimler-testi: 40
+      tarih-testi: 44
+  

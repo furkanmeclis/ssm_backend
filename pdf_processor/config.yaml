@@ -1,0 +1,851 @@
+.: {}
+ALES:
+  2013 ALES:
+    2013-ALES_Ilkbahar_Soru_Kitapciklari.pdf:
+      sections:
+        SAYISAL-1 TESTİ: 50
+        SAYISAL-2 TESTİ: 50
+        SÖZEL-1 TESTİ: 50
+        SÖZEL-2 TESTİ: 50
+      start_text: BU BÖLÜMDE
+    2013-ALES_Sonbahar_Soru_Kitapciklari.pdf:
+      sections:
+        SAYISAL-1 TESTİ: 50
+        SAYISAL-2 TESTİ: 50
+        SÖZEL-1 TESTİ: 50
+        SÖZEL-2 TESTİ: 50
+      start_text: BU BÖLÜMDE
+  2014 ALES:
+    2014-ALES_Ilkbahar_Soru_Kitapciklari.pdf:
+      sections:
+        SAYISAL-1 TESTİ: 40
+        SAYISAL-2 TESTİ: 40
+        SÖZEL-1 TESTİ: 40
+        SÖZEL-2 TESTİ: 40
+      start_text: BU BÖLÜMDE
+    2014-ALES_Sonbahar_Soru_Kitapciklari.pdf:
+      sections:
+        SAYISAL-1 TESTİ: 40
+        SAYISAL-2 TESTİ: 40
+        SÖZEL-1 TESTİ: 40
+        SÖZEL-2 TESTİ: 40
+      start_text: BU BÖLÜMDE
+  2015 ALES:
+    2015-ALES_Ilkbahar_Soru_Kitapciklari.pdf:
+      sections:
+        SAYISAL-1 TESTİ: 40
+        SAYISAL-2 TESTİ: 40
+        SÖZEL-1 TESTİ: 40
+        SÖZEL-2 TESTİ: 40
+      start_text: BU BÖLÜMDE
+    2015-ALES_Sonbahar_Soru_Kitapciklari.pdf:
+      sections:
+        SAYISAL-1 TESTİ: 40
+        SAYISAL-2 TESTİ: 40
+        SÖZEL-1 TESTİ: 40
+        SÖZEL-2 TESTİ: 40
+      start_text: BU BÖLÜMDE
+  2016 ALES:
+    2016-ALES_Ilkbahar_Soru_Kitapciklari.pdf:
+      sections:
+        SAYISAL-1 TESTİ: 40
+        SAYISAL-2 TESTİ: 40
+        SÖZEL-1 TESTİ: 40
+        SÖZEL-2 TESTİ: 40
+      start_text: BU BÖLÜMDE
+    2016-ALES_Sonbahar_Soru_Kitapciklari.pdf:
+      sections:
+        SAYISAL-1 TESTİ: 40
+        SAYISAL-2 TESTİ: 40
+        SÖZEL-1 TESTİ: 40
+        SÖZEL-2 TESTİ: 40
+      start_text: BU BÖLÜMDE
+  2017 ALES:
+    2017-ALES_Ilkbahar_Soru_Kitapciklari.pdf:
+      sections:
+        SAYISAL-1 TESTİ: 40
+        SAYISAL-2 TESTİ: 40
+        SÖZEL-1 TESTİ: 40
+        SÖZEL-2 TESTİ: 40
+      start_text: BU BÖLÜMDE
+    2017-ALES_Sonbahar_Soru_Kitapciklari.pdf:
+      sections:
+        SAYISAL TESTİ: 50
+        SÖZEL TESTİ: 50
+      start_text: BU BÖLÜMDE
+  2018 ALES:
+    2018-ALES ILKBAHAR.pdf:
+      sections:
+        SAYISAL TESTİ: 50
+        SÖZEL TESTİ: 50
+      start_text: Bu testte
+    2018-ALES-2.pdf:
+      sections:
+        SAYISAL TESTİ: 50
+        SÖZEL TESTİ: 50
+      start_text: Bu testte
+    2018-ALES-3.pdf:
+      sections:
+        SAYISAL TESTİ: 50
+        SÖZEL TESTİ: 50
+      start_text: Bu testte
+  2019 ALES:
+    2019-ALES-1.pdf:
+      sections:
+        SAYISAL TESTİ: 50
+        SÖZEL TESTİ: 50
+      start_text: Bu testte
+    2019-ALES-2.pdf:
+      sections:
+        SAYISAL TESTİ: 50
+        SÖZEL TESTİ: 50
+      start_text: Bu testte
+    2019-ALES-3.pdf:
+      sections:
+        SAYISAL TESTİ: 50
+        SÖZEL TESTİ: 50
+      start_text: Bu testte
+  2020 ALES:
+    2020-ALES-1.pdf:
+      sections:
+        SAYISAL TESTİ: 50
+        SÖZEL TESTİ: 50
+      start_text: Bu testte
+    2020-ALES-2.pdf:
+      sections:
+        SAYISAL TESTİ: 50
+        SÖZEL TESTİ: 50
+      start_text: Bu testte
+  2021 ALES:
+    2021-ALES-1.pdf:
+      sections:
+        SAYISAL TESTİ: 50
+        SÖZEL TESTİ: 50
+      start_text: Bu testte
+    2021-ALES-2.pdf:
+      sections:
+        SAYISAL TESTİ: 50
+        SÖZEL TESTİ: 50
+      start_text: Bu testte
+    2021-ALES-3.pdf:
+      sections:
+        SAYISAL TESTİ: 50
+        SÖZEL TESTİ: 50
+      start_text: Bu testte
+  2022 ALES:
+    2022 ALES-1.pdf:
+      sections:
+        SAYISAL TESTİ: 50
+        SÖZEL TESTİ: 50
+      start_text: Bu testte
+    2022 ALES-2.pdf:
+      sections:
+        SAYISAL TESTİ: 50
+        SÖZEL TESTİ: 50
+      start_text: Bu testte
+    2022 ALES-3.pdf:
+      sections:
+        SAYISAL TESTİ: 50
+        SÖZEL TESTİ: 50
+      start_text: Bu testte
+  2023 ALES:
+    2023 ALES-1.pdf:
+      sections:
+        SAYISAL TESTİ: 50
+        SÖZEL TESTİ: 50
+      start_text: Bu testte
+    2023 ALES-2.pdf:
+      sections:
+        SAYISAL TESTİ: 50
+        SÖZEL TESTİ: 50
+      start_text: Bu testte
+    2023-ALES-3.pdf:
+      sections:
+        SAYISAL TESTİ: 50
+        SÖZEL TESTİ: 50
+      start_text: Bu testte
+  2024 ALES:
+    2024-ALES-1.pdf:
+      sections:
+        SAYISAL TESTİ: 50
+        SÖZEL TESTİ: 50
+      start_text: Bu testte
+KPSS:
+  2013-KPSS:
+    2013 -KPSS LİSANS GY+GK.pdf:
+      sections:
+        GENEL YETENEK TESTİ: 60
+        GENEL KÜLTÜR TESTİ: 60
+      start_text: Bu testte
+  2014-KPSS:
+    2014 -KPSS LİSANS GK+GY.pdf:
+      sections:
+        GENEL YETENEK TESTİ: 60
+        GENEL KÜLTÜR TESTİ: 60
+      start_text: Bu testte
+  2015-KPSS:
+    2015- KPSS LİSANS GK+GY.pdf:
+      sections:
+        GENEL YETENEK TESTİ: 60
+        GENEL KÜLTÜR TESTİ: 60
+      start_text: Bu testte
+  2016-KPSS:
+    2016-KPSS LİSANS GY+GK.pdf:
+      sections:
+        GENEL YETENEK TESTİ: 60
+        GENEL KÜLTÜR TESTİ: 60
+      start_text: Bu testte
+  2017-KPSS:
+    2017- KPSS LİSANS GK+GY.pdf:
+      sections:
+        GENEL YETENEK TESTİ: 60
+        GENEL KÜLTÜR TESTİ: 60
+      start_text: Bu testte
+  2018-KPSS:
+    2018-KPSS LİSANS GYGK.pdf:
+      sections:
+        GENEL YETENEK TESTİ: 60
+        GENEL KÜLTÜR TESTİ: 60
+      start_text: Bu testte
+  2019-KPSS:
+    2019_KPSS_LİSANS_GY_GK.pdf:
+      sections:
+        GENEL YETENEK TESTİ: 60
+        GENEL KÜLTÜR TESTİ: 60
+      start_text: Bu testte
+  2020-KPSS:
+    2020-KPSS LİSANS GY+GK.pdf:
+      sections:
+        GENEL YETENEK TESTİ: 60
+        GENEL KÜLTÜR TESTİ: 60
+      start_text: Bu testte
+  2021-KPSS:
+    2021-KPSS LİSANS GY-GK.pdf:
+      sections:
+        GENEL YETENEK TESTİ: 60
+        GENEL KÜLTÜR TESTİ: 60
+      start_text: Bu testte
+  2022-KPSS:
+    2022-KPSS LİSANS GY+GK.pdf:
+      sections:
+        GENEL YETENEK TESTİ: 60
+        GENEL KÜLTÜR TESTİ: 60
+      start_text: Bu testte
+  2023-KPSS:
+    2023-Kpss Lisans-GY-GK.pdf:
+      sections:
+        GENEL YETENEK TESTİ: 60
+        GENEL KÜLTÜR TESTİ: 60
+      start_text: Bu testte
+MSÜ:
+  2018-MSÜ:
+    2018-MSÜ.pdf:
+      sections:
+        TÜRKÇE TESTİ: 40
+        SOSYAL BİLİMLER TESTİ: 25
+        TEMEL MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 20
+      start_text: Bu testte
+  2019-MSÜ:
+    2019-MSÜ.pdf:
+      sections:
+        TÜRKÇE TESTİ: 40
+        SOSYAL BİLİMLER TESTİ: 25
+        TEMEL MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 20
+      start_text: Bu testte
+  2020-MSÜ:
+    2020-MSÜ.pdf:
+      sections:
+        TÜRKÇE TESTİ: 40
+        SOSYAL BİLİMLER TESTİ: 25
+        TEMEL MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 20
+      start_text: Bu testte
+  2021-MSÜ:
+    2021-MSÜ.pdf:
+      sections:
+        TÜRKÇE TESTİ: 40
+        SOSYAL BİLİMLER TESTİ: 25
+        TEMEL MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 20
+      start_text: Bu testte
+  2022-MSÜ:
+    2022-MSÜ.pdf:
+      sections:
+        TÜRKÇE TESTİ: 40
+        SOSYAL BİLİMLER TESTİ: 25
+        TEMEL MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 20
+      start_text: Bu testte
+  2023-MSÜ:
+    2023-MSÜ.pdf:
+      sections:
+        TÜRKÇE TESTİ: 40
+        SOSYAL BİLİMLER TESTİ: 25
+        TEMEL MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 20
+      start_text: Bu testte
+  2024-MSÜ:
+    2024-MSÜ.pdf:
+      sections:
+        TÜRKÇE TESTİ: 40
+        SOSYAL BİLİMLER TESTİ: 25
+        TEMEL MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 20
+      start_text: Bu testte
+YDT:
+  YDT 2013:
+    ALMANCA.pdf:
+      sections:
+        ALMANCA TESTİ: 80
+      start_text: Bu testte 80 soru vardır.
+    FRANSIZCA.pdf:
+      sections:
+        FRANSIZCA TESTİ: 80
+      start_text: Bu testte 80 soru vardır.
+    INGILIZCE.pdf:
+      sections:
+        İNGİLİZCE TESTİ: 80
+      start_text: Bu testte 80 soru vardır.
+  YDT 2014:
+    ALMANCA.pdf:
+      sections:
+        ALMANCA TESTİ: 80
+      start_text: Bu testte
+    FRANSIZCA.pdf:
+      sections:
+        FRANSIZCA TESTİ: 80
+      start_text: Bu testte
+    İNGİLİZCE.pdf:
+      sections:
+        İNGİLİZCE TESTİ: 80
+      start_text: Bu testte 80 soru vardır.
+  YDT 2015:
+    ALMANCA.pdf:
+      sections:
+        ALMANCA TESTİ: 80
+      start_text: Bu testte
+    FRANSIZCA.pdf:
+      sections:
+        FRANSIZCA TESTİ: 80
+      start_text: Bu testte
+    INGILIZCE.pdf:
+      sections:
+        İNGİLİZCE TESTİ: 80
+      start_text: Bu testte
+  YDT 2016:
+    ALMANCA.pdf:
+      sections:
+        ALMANCA TESTİ: 80
+      start_text: Bu testte
+    FRANSIZCA.pdf:
+      sections:
+        FRANSIZCA TESTİ: 80
+      start_text: Bu testte
+    İNGİLİZCE.pdf:
+      sections:
+        İNGİLİZCE TESTİ: 80
+      start_text: Bu testte
+  YDT 2017:
+    LYS5ALMANCA18062017.pdf:
+      sections:
+        ALMANCA TESTİ: 80
+      start_text: Bu testte
+    LYS5FRANSIZCA18062017.pdf:
+      sections:
+        FRANSIZCA TESTİ: 80
+      start_text: Bu testte
+    LYS5INGILIZCE18062017.pdf:
+      sections:
+        İNGİLİZCE TESTİ: 80
+      start_text: Bu testte
+  YDT 2018:
+    2018-YDT ALMANCA.pdf:
+      sections:
+        ALMANCA TESTİ: 80
+      start_text: Bu testte
+    2018-YDT ARAPÇA.pdf:
+      sections:
+        ARAPÇA TESTİ: 80
+      start_text: Bu testte
+    2018-YDT FRANSIZCA.pdf:
+      sections:
+        FRANSIZCA TESTİ: 80
+      start_text: Bu testte
+    2018-YDT İNGİLİZCE.pdf:
+      sections:
+        İNGİLİZCE TESTİ: 80
+      start_text: Bu testte
+    2018-YDT RUSÇA.pdf:
+      sections:
+        RUSÇA TESTİ: 80
+      start_text: Bu testte
+  YDT 2019:
+    2019-YDT ALMANCA.pdf:
+      sections:
+        ALMANCA TESTİ: 80
+      start_text: Bu testte
+    2019-YDT ARAPÇA.pdf:
+      sections:
+        ARAPÇA TESTİ: 80
+      start_text: Bu testte
+    2019-YDT FRANSIZCA.pdf:
+      sections:
+        FRANSIZCA TESTİ: 80
+      start_text: Bu testte
+    2019-YDT İNGİLİZCE.pdf:
+      sections:
+        İNGİLİZCE TESTİ: 80
+      start_text: Bu testte
+    2019-YDT RUSÇA.pdf:
+      sections:
+        RUSÇA TESTİ: 80
+      start_text: Bu testte
+  YDT 2020:
+    2020-YDT ALMANCA.pdf:
+      sections:
+        ALMANCA TESTİ: 80
+      start_text: Bu testte
+    2020-YDT ARAPÇA.pdf:
+      sections:
+        ARAPÇA TESTİ: 80
+      start_text: Bu testte
+    2020-YDT FRANSIZCA.pdf:
+      sections:
+        FRANSIZCA TESTİ: 80
+      start_text: Bu testte
+    2020-YDT İNGİLİZCE.pdf:
+      sections:
+        İNGİLİZCE TESTİ: 80
+      start_text: Bu testte
+    2020-YDT RUSÇA.pdf:
+      sections:
+        RUSÇA TESTİ: 80
+      start_text: Bu testte
+  YDT 2021:
+    Almanca_YDT.pdf:
+      sections:
+        ALMANCA TESTİ: 80
+      start_text: Bu testte
+    Arapça_YDT.pdf:
+      sections:
+        ARAPÇA TESTİ: 80
+      start_text: Bu testte
+    Fransızca_YDT.pdf:
+      sections:
+        FRANSIZCA TESTİ: 80
+      start_text: Bu testte
+    İngilizce_YDT.pdf:
+      sections:
+        İNGİLİZCE TESTİ: 80
+      start_text: Bu testte
+    Rusça_YDT.pdf:
+      sections:
+        RUSÇA TESTİ: 80
+      start_text: Bu testte
+  YDT 2022:
+    yks_2022_ydt_almanca.pdf:
+      sections:
+        ALMANCA TESTİ: 80
+      start_text: Bu testte
+    yks_2022_ydt_arapca.pdf:
+      sections:
+        ARAPÇA TESTİ: 80
+      start_text: Bu testte
+    yks_2022_ydt_fransizca.pdf:
+      sections:
+        FRANSIZCA TESTİ: 80
+      start_text: Bu testte
+    yks_2022_ydt_ingilizce.pdf:
+      sections:
+        İNGİLİZCE TESTİ: 80
+      start_text: Bu testte
+    yks_2022_ydt_rusca.pdf:
+      sections:
+        RUSÇA TESTİ: 80
+      start_text: Bu testte
+  YDT 2023:
+    18.06.2023  YKS- YDT (ARAPÇA).pdf:
+      sections:
+        ARAPÇA TESTİ: 80
+      start_text: Bu testte
+    18.06.2023  YKS-YDT ( FRANSIZCA).pdf:
+      sections:
+        FRANSIZCA TESTİ: 80
+      start_text: Bu testte
+    18.06.2023 2023-YKS- YDT (ALMANCA ).pdf:
+      sections:
+        ALMANCA TESTİ: 80
+      start_text: Bu testte
+    18.06.2023 YKS-YDT (İNGİLİZCE).pdf:
+      sections:
+        İNGİLİZCE TESTİ: 80
+      start_text: Bu testte
+    18.06.2023 YKS-YDT( RUSCA).pdf:
+      sections:
+        RUSÇA TESTİ: 80
+      start_text: Bu testte
+  YDT 2024:
+    yks_ydt_alm_2024.pdf:
+      sections:
+        ALMANCA TESTİ: 80
+      start_text: Bu testte
+    yks_ydt_arp_2024.pdf:
+      sections:
+        ARAPÇA TESTİ: 80
+      start_text: Bu testte
+    yks_ydt_fra_2024.pdf:
+      sections:
+        FRANSIZCA TESTİ: 80
+      start_text: Bu testte
+    yks_ydt_ing_2024.pdf:
+      sections:
+        İNGİLİZCE TESTİ: 80
+      start_text: Bu testte
+    yks_ydt_rus_2024.pdf:
+      sections:
+        RUSÇA TESTİ: 80
+      start_text: Bu testte
+YKS:
+  2013-YKS:
+    2013-LYS 4 FELSEFE+DİN.pdf:
+      sections:
+        FELSEFE GRUBU İLE DİN KÜLTÜRÜ VE AHLAK BİLGİSİ TESTİ: 40
+      start_text: Bu testte
+    2013-LYS 1 GEOMETRİ.pdf:
+      sections: 
+        GEOMETRİ TESTİ: 30
+      start_text: Bu testte
+    2013-LYS 1 MATEMATİK.pdf:
+      sections:
+        MATEMATİK TESTİ: 50
+      start_text: Bu testte
+    2013-LYS 2 BİYOLOJİ.pdf:
+      sections:
+        BİYOLOJİ TESTİ: 30
+      start_text: Bu testte
+    2013-LYS 2 FİZİK.pdf:
+      sections:
+        FİZİK TESTİ: 30
+      start_text: Bu testte
+    2013-LYS 2 KİMYA.pdf:
+      sections:
+        KİMYA TESTİ: 30
+      start_text: Bu testte
+    2013-LYS 3 COĞRAFYA-1.pdf:
+      sections:
+        COĞRAFYA TESTİ: 24
+      start_text: Bu testte
+    2013-LYS 3 TÜRK DİLİ VE EDEBİYATI.pdf:
+      sections:
+        TÜRK DİLİ VE EDEBİYATI TESTİ: 56
+      start_text: Bu testte
+    2013-LYS 4 COĞRAFYA-2.pdf:
+      sections:
+        COĞRAFYA TESTİ: 14
+      start_text: Bu testte
+    2013-LYS 4 TARİH.pdf:
+      sections:
+        TARİH TESTİ: 44
+      start_text: Bu testte
+    2013-YGS.pdf:
+      sections:
+        TÜRKÇE TESTİ: 40
+        SOSYAL BİLİMLER TESTİ: 45
+        TEMEL MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 40
+      start_text: Bu testte
+  2014-YKS:
+    2014-LYS 1 GEOMETRİ.pdf:
+      sections:
+        GEOMETRİ TESTİ: 30
+      start_text: Bu testte
+    2014-LYS 1 MATEMATİK.pdf:
+      sections:
+        MATEMATİK TESTİ: 50
+      start_text: Bu testte
+    2014-LYS 2 BİYOLOJİ.pdf:
+      sections:
+        BİYOLOJİ TESTİ: 30
+      start_text: Bu testte
+    2014-LYS 2 FİZİK.pdf:
+      sections:
+        FİZİK TESTİ: 30
+      start_text: Bu testte
+    2014-LYS 2 KİMYA.pdf:
+      sections:
+        KİMYA TESTİ: 30
+      start_text: Bu testte
+    2014-LYS 3 COĞRAFYA-1.pdf:
+      sections:
+        COĞRAFYA TESTİ: 24
+      start_text: Bu testte
+    2014-LYS 3 TÜRK DİLİ VE EDEBİYATI.pdf:
+      sections:
+        TÜRK DİLİ VE EDEBİYATI TESTİ: 56
+      start_text: Bu testte
+    2014-LYS 4 COĞRAFYA-2.pdf:
+      sections:
+        COĞRAFYA TESTİ: 14
+      start_text: Bu testte
+    2014-LYS 4 FELSEFE+DİN.pdf:
+      sections:
+        FELSEFE GRUBU İLE DİN KÜLTÜRÜ VE AHLAK BİLGİSİ TESTİ: 40
+      start_text: Bu testte
+    2014-LYS 4 TARİH.pdf:
+      sections:
+        TARİH TESTİ: 44
+      start_text: Bu testte
+    2014-YGS.pdf:
+      sections:
+        TÜRKÇE TESTİ: 40
+        SOSYAL BİLİMLER TESTİ: 45
+        TEMEL MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 40
+      start_text: Bu testte
+  2015-YKS:
+    2015-LYS 1 GEOMETRİ.pdf:
+      sections:
+        GEOMETRİ TESTİ: 30
+      start_text: Bu testte
+    2015-LYS 1 MATEMATİK.pdf:
+      sections:
+        MATEMATİK TESTİ: 50
+      start_text: Bu testte
+    2015-LYS 2 BİYOLOJİ.pdf:
+      sections:
+        BİYOLOJİ TESTİ: 30
+      start_text: Bu testte
+    2015-LYS 2 FİZİK.pdf:
+      sections:
+        FİZİK TESTİ: 30
+      start_text: Bu testte
+    2015-LYS 2 KİMYA.pdf:
+      sections:
+        KİMYA TESTİ: 30
+      start_text: Bu testte
+    2015-LYS 3 COĞRAFYA-1.pdf:
+      sections:
+        COĞRAFYA TESTİ: 24
+      start_text: Bu testte
+    2015-LYS 3 TÜRK DİLİ VE EDEBİYATI.pdf:
+      sections:
+        TÜRK DİLİ VE EDEBİYATI TESTİ: 56
+      start_text: Bu testte
+    2015-LYS 4 COĞRAFYA-2.pdf:
+      sections:
+        COĞRAFYA TESTİ: 14
+      start_text: Bu testte
+    2015-LYS 4 FELSEFE+DİN.pdf:
+      sections:
+        FELSEFE GRUBU İLE DİN KÜLTÜRÜ VE AHLAK BİLGİSİ TESTİ: 40
+      start_text: Bu testte
+    2015-LYS 4 TARİH.pdf:
+      sections:
+        TARİH TESTİ: 44
+      start_text: Bu testte
+    2015_YGS.pdf:
+      sections:
+        TÜRKÇE TESTİ: 40
+        SOSYAL BİLİMLER TESTİ: 45
+        TEMEL MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 40
+      start_text: Bu testte
+  2016-YKS:
+    2016-LYS  2 KİMYA.pdf:
+      sections:
+        KİMYA TESTİ: 30
+      start_text: Bu testte
+    2016-LYS 1 GEOMETRİ.pdf:
+      sections:
+        GEOMETRİ TESTİ: 30
+      start_text: Bu testte
+    2016-LYS 1 MATEMATİK.pdf:
+      sections:
+        MATEMATİK TESTİ: 50
+      start_text: Bu testte
+    2016-LYS 2 BİYOLOJİ.pdf:
+      sections:
+        BİYOLOJİ TESTİ: 30
+      start_text: Bu testte
+    2016-LYS 2 FİZİK.pdf:
+      sections:
+        FİZİK TESTİ: 30
+      start_text: Bu testte
+    2016-LYS 3 COĞRAFYA-1.pdf:
+      sections:
+        COĞRAFYA TESTİ: 24
+      start_text: Bu testte
+    2016-LYS 3 TÜRK DİLİ VE EDEBİYATI.pdf:
+      sections:
+        TÜRK DİLİ VE EDEBİYATI TESTİ: 56
+      start_text: Bu testte
+    2016-LYS 4 COĞRAFYA-2.pdf:
+      sections:
+        COĞRAFYA TESTİ: 14
+      start_text: Bu testte
+    2016-LYS 4 FELSEFE+DİN.pdf:
+      sections:
+        FELSEFE GRUBU İLE DİN KÜLTÜRÜ VE AHLAK BİLGİSİ TESTİ: 40
+      start_text: Bu testte
+    2016-LYS 4 TARİH.pdf:
+      sections:
+        TARİH TESTİ: 44
+      start_text: Bu testte
+    YGS-2016.pdf:
+      sections:
+        TÜRKÇE TESTİ: 40
+        SOSYAL BİLİMLER TESTİ: 45
+        TEMEL MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 40
+      start_text: Bu testte
+  2017-YKS:
+    2017-LYS 1 MATEMATİK-GEOMETRİ.pdf:
+      sections:
+        MATEMATİK TESTİ: 80
+      start_text: Bu testte
+    2017-LYS 2 BİYOLOJİ.pdf:
+      sections:
+        BİYOLOJİ TESTİ: 30
+      start_text: Bu testte
+    2017-LYS 2 FİZİK.pdf:
+      sections:
+        FİZİK TESTİ: 30
+      start_text: Bu testte
+    2017-LYS 2 KİMYA.pdf:
+      sections:
+        KİMYA TESTİ: 30
+      start_text: Bu testte
+    2017-LYS 3 COĞRAFYA-1.pdf:
+      sections:
+        COĞRAFYA TESTİ: 24
+      start_text: Bu testte
+    2017-LYS 3 TÜRK DİLİ EDEBİYAT.pdf:
+      sections:
+        TÜRK DİLİ VE EDEBİYATI TESTİ: 56
+      start_text: Bu testte
+    2017-LYS 4 COĞRAFYA-2.pdf:
+      sections:
+        COĞRAFYA TESTİ: 14
+      start_text: Bu testte
+    2017-LYS 4 FELSEFE+DİN.pdf:
+      sections:
+        FELSEFE GRUBU İLE DİN KÜLTÜRÜ VE AHLAK BİLGİSİ TESTİ: 40
+      start_text: Bu testte
+    2017-LYS 4 TARİH.pdf:
+      sections:
+        TARİH TESTİ: 44
+      start_text: Bu testte
+    YGS-2017.pdf:
+      sections:
+        TÜRKÇE TESTİ: 40
+        SOSYAL BİLİMLER TESTİ: 45
+        TEMEL MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 40
+      start_text: Bu testte
+  2018-YKS:
+    2018-AYT.pdf:
+      sections:
+        TÜRK DİLİ ve EDEBİYATI-SOSYAL BİLİMLER-1 TESTİ: 40
+        SOSYAL BİLİMLER-2 TESTİ: 46
+        MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 40
+      start_text: Bu testte
+    2018_TYT.pdf:
+      sections:
+        TÜRKÇE TESTİ: 40
+        SOSYAL BİLİMLER TESTİ: 25
+        TEMEL MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 20
+      start_text: Bu testte
+  2019-YKS:
+    2019-AYT.pdf:
+      sections:
+        TÜRK DİLİ ve EDEBİYATI-SOSYAL BİLİMLER-1 TESTİ: 40
+        SOSYAL BİLİMLER-2 TESTİ: 46
+        MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 40
+      start_text: Bu testte
+    2019-TYT.pdf:
+      sections:
+        TÜRKÇE TESTİ: 40
+        SOSYAL BİLİMLER TESTİ: 25
+        TEMEL MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 20
+      start_text: Bu testte
+  2020-YKS:
+    2020-AYT.pdf:
+      sections:
+        TÜRK DİLİ ve EDEBİYATI-SOSYAL BİLİMLER-1 TESTİ: 40
+        SOSYAL BİLİMLER-2 TESTİ: 46
+        MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 40
+      start_text: Bu testte
+    2020-TYT.pdf:
+      sections:
+        TÜRKÇE TESTİ: 40
+        SOSYAL BİLİMLER TESTİ: 25
+        TEMEL MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 20
+      start_text: Bu testte
+  2021-YKS:
+    2021-  YKS Alan Yeterlilik Testi.pdf:
+      sections:
+        TÜRK DİLİ ve EDEBİYATI-SOSYAL BİLİMLER-1 TESTİ: 40
+        SOSYAL BİLİMLER-2 TESTİ: 46
+        MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 40
+      start_text: Bu testte
+    2021- YKS Temel Yeterlilik Testi.pdf:
+      sections:
+        TÜRKÇE TESTİ: 40
+        SOSYAL BİLİMLER TESTİ: 25
+        TEMEL MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 20
+      start_text: Bu testte
+  2022-YKS:
+    2022- YKS-AYT.pdf:
+      sections:
+        TÜRK DİLİ ve EDEBİYATI-SOSYAL BİLİMLER-1 TESTİ: 40
+        SOSYAL BİLİMLER-2 TESTİ: 46
+        MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 40
+      start_text: Bu testte
+    2022- YKS-TYT.pdf:
+      sections:
+        TÜRKÇE TESTİ: 40
+        SOSYAL BİLİMLER TESTİ: 25
+        TEMEL MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 20
+      start_text: Bu testte
+  2023-YKS:
+    2023 YKS (AYT).pdf:
+      sections:
+        TÜRK DİLİ VE EDEBİYATI-SOSYALBİLİMLER-1 TESTİ: 40
+        SOSYAL BİLİMLER-2 TESTİ: 46
+        MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 40
+      start_text: Bu testte
+    2023 YKS (TYT).pdf:
+      sections:
+        TÜRKÇE TESTİ: 40
+        SOSYAL BİLİMLER TESTİ: 25
+        TEMEL MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 20
+      start_text: Bu testte
+  2024-YKS:
+    yks_ayt_2024.pdf:
+      sections:
+        TÜRK DİLİ VE EDEBİYATI-SOSYALBİLİMLER-1 TESTİ: 40
+        SOSYAL BİLİMLER-2 TESTİ: 46
+        MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 40
+      start_text: Bu testte
+    yks_tyt_2024.pdf:
+      sections:
+        TÜRKÇE TESTİ: 40
+        SOSYAL BİLİMLER TESTİ: 25
+        TEMEL MATEMATİK TESTİ: 40
+        FEN BİLİMLERİ TESTİ: 20
+      start_text: Bu testte

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ödeme Onayı</title>
+</head>
+<body style="background-color: #FFFFFF; color: #000000; font-family: 'Raleway', Arial, sans-serif; margin: 0; font-size: 18px; padding: 0;">
+    <div style="width: 100%; background-color: #FFFFFF; padding: 10px; margin-bottom: 40px; box-sizing: border-box; text-align: center;">
+        <table style="margin: 0 auto; max-width: 600px;">
+            <tr>
+                <td style="text-align: center;">
+                    <img src="https://sinav-sorulari-merkezi.fra1.cdn.digitaloceanspaces.com/static/sinav-sorulari-merkezi-logo.png" alt="Sinav Sorulari Merkezi Logo" style="width: 80px; margin-right: 10px; padding: 10px;">
+                </td>
+                <td style="text-align: center;">
+                    <span style="white-space: nowrap; color: #004CFF; font-weight: 600; font-size: 25px;">Sınav Soruları Merkezi</span>
+                </td>
+            </tr>
+        </table>
+        <table width="100%" cellspacing="0" cellpadding="0">
+            <tr>
+                <td style="text-align: center; border-bottom: 0.6px solid #000000; width: 60%; margin: 0 auto;">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <table width="100%" cellspacing="0" cellpadding="0" style="max-width: 800px; margin: auto; background-color: #207DD1; border-radius: 55px; padding: 20px; text-align: center;">
+        <tr>
+            <td style="font-size: 35px; color: #FFFFFF; padding: 20px; border-bottom: 4px solid #FFFFFF;">
+                Ödeme Onay Bilgilendirme
+            </td>
+        </tr>
+        <tr>
+            <td style="color: #FFFFFF; line-height: 150%; padding-bottom: 20px; padding-top: 20px;">
+                Merhaba <strong>{{ user.name }}</strong>,
+            </td>
+        </tr>
+        <tr>
+            <td style="color: #FFFFFF; padding-bottom: 20px;">
+                Ödemeniz başarıyla alındı. İşte ödeme bilgileriniz:
+            </td>
+        </tr>
+        <tr>
+            <td style="background-color: #FFFFFF; color: #000000; padding: 20px; text-align: left; border-radius: 24px; box-shadow: 0px 0px 34.78px 0px #00000063;">
+                <p><strong style="color: #004CFF;">Ödeme Planı:</strong> <span style="color: #000000;">{{ payment.payment_plan.days }} günlük plan</span></p>
+                <p><strong style="color: #004CFF;">İndirim:</strong> <span style="color: #000000;">{{ payment.payment_plan.discount|default_if_none:"0" }} TL</span></p>
+                <p><strong style="color: #004CFF;">Toplam Tutar:</strong> <span style="color: #000000;">{{ payment.total_payment_amount }}</span> <span style="color: #000000;">{{ payment.currency }}</span></p>
+                <p><strong style="color: #004CFF;">Yeni Lisans Bitiş Tarihi:</strong> <span style="color: #000000;">{{ payment.subscription_end_date_after_payment|date:"d/m/Y H:i" }}</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="color: #FFFFFF; padding-top: 20px;">
+                Herhangi bir sorunuz olursa <a href="mailto:iletisim@easytradetr.com" style="color: #FFFFFF; text-decoration: underline;">iletisim@easytradetr.com</a> adresine e-posta gönderebilirsiniz.
+            </td>
+        </tr>
+        <tr>
+            <td style="font-size: 20px; color: #FFFFFF; text-align: center; padding: 10px; padding-top: 30px;">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td align="center" style="padding-left: 100px; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+                            <img src="https://sinav-sorulari-merkezi.fra1.cdn.digitaloceanspaces.com/static/sinav-sorulari-merkezi-logo.png" alt="Sinav Sorulari Merkezi Logo" style="width: 80px; height: 80px; display: block;">
+                        </td>
+                        <td align="center" style="padding-right: 0; padding-top: 0; padding-bottom: 0;">
+                            <span style="font-size: 18px; color: #FFFFFF; font-weight: bold;">Teşekkürler, <br> Sınav Soruları Merkezi</span>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <div style="width: 100%; color: #004CFF; background-color: #FFFFFF; padding: 10px; font-size: 11px; text-align: center; box-sizing: border-box; margin-top: 40px;">
+        <table width="100%" cellspacing="0" cellpadding="0">
+            <tr>
+                <td style="text-align: center; border-top: 0.6px solid #000000; width: 60%; margin: 0 auto;">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

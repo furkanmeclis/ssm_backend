@@ -1,0 +1,155 @@
+{% extends "admin/change_list.html" %}
+
+{% block object-tools-items %}
+  <li>
+    <a href="{% url 'admin:uni_rankings_upload_excel' %}" class="button check-status-btn" style="background: linear-gradient(to right, rgb(72, 6, 255), blue);">Excel İle Üniversite Programları Yükle</a>
+  </li>
+  <button id="check-status-btn" class="button check-status-btn">Yükleme Durumunu Kontrol Et</button>
+  <li>
+    <a href="{% url 'upload_history' 'uni_rankings' %}" class="button check-status-btn" style="background: linear-gradient(to right, rgb(72, 6, 255), blue);">Yükleme Geçmişi</a>
+  </li>
+  <div id="status-modal" class="modal">
+    <div class="modal-content">
+      <span id="close-modal" class="close">&times;</span>
+      <h2 style="text-align: center;">Yükleme Durumu</h2>
+      <p id="status-message">Durum kontrol ediliyor...</p>
+      <progress id="progress-bar" value="0" max="100"></progress>
+      <span id="progress-percentage"></span>
+    </div>
+  </div>
+
+  {{ block.super }}
+{% endblock %}
+
+{% block extrahead %}
+  {{ block.super }}
+  <style>
+    .button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+    .button, a.button {
+        background-color: #28a745;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 50px;
+        border: none;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        display: inline-block; /* Ensure the anchor behaves like a block */
+        text-align: center; /* Center the text */
+        text-decoration: none; /* Remove underline from links */
+        transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .button:hover, a.button:hover {
+        background-color: #135823;
+        transform: scale(1.05); /* Slightly enlarge on hover */
+    }
+    .button:hover {
+        background-color: #135823;
+    }
+    .check-status-btn {
+        margin-left: 10px;
+        background-color: #28a745;
+        border-radius: 50px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+    }
+    .check-status-btn, a.check-status-btn {
+      margin-left: 10px;
+      background-color: #28a745;
+      border-radius: 50px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+      text-decoration: none; /* Ensures links look like buttons */
+      padding: 10px 20px;
+      display: inline-block;
+      color: white;
+    }
+    #progress-bar {
+        width: 100%;
+        height: 20px;
+        margin-top: 10px;
+    }
+    #progress-percentage {
+        font-weight: bold;
+        margin-left: 10px;
+    }
+    .modal-content {
+        background: linear-gradient(135deg, #1e7e34, #28a745);
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        position: relative;
+        animation: fadeIn 0.3s;
+        font-size: 20px;
+    }
+    .modal {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        z-index: 1000;
+    }
+    .close {
+        float: right;
+        cursor: pointer;
+        font-size: 24px;
+    }
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+  </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var checkStatusBtn = document.getElementById('check-status-btn');
+            var statusModal = document.getElementById('status-modal');
+            var statusMessage = document.getElementById('status-message');
+            var progressBar = document.getElementById('progress-bar');
+            var progressPercentage = document.getElementById('progress-percentage');
+            var closeModal = document.getElementById('close-modal');
+    
+            function updateStatus() {
+                fetch('{% url "check_task_status" "uni_rankings" %}')  // Pass "uni_rankings" as the task_type
+                    .then(response => response.json())
+                    .then(data => {
+                        statusMessage.textContent = data.message || 'Durum kontrol ediliyor...';
+                        progressBar.value = typeof data.progress === 'number' ? data.progress : 0;
+                        progressPercentage.textContent = typeof data.progress === 'number' ? data.progress + '%' : '0%';
+    
+                        if (data.status === 'SUCCESS' || data.status === 'FAILURE') {
+                            // If the status is SUCCESS or FAILURE, stop the interval after updating one more time
+                            clearInterval(statusInterval);
+                        }
+                    })
+                    .catch(error => {
+                        statusMessage.textContent = 'Durum kontrol edilirken bir hata oluştu.';
+                        clearInterval(statusInterval);
+                    });
+            }
+    
+            checkStatusBtn.addEventListener('click', function () {
+                statusModal.style.display = 'block';
+                updateStatus(); // First status check
+                statusInterval = setInterval(updateStatus, 4000); // Poll every 4 seconds
+            });
+    
+            closeModal.addEventListener('click', function () {
+                statusModal.style.display = 'none';
+                clearInterval(statusInterval); // Stop polling when modal is closed
+            });
+    
+            var statusInterval;
+        });
+    </script>
+{% endblock %}

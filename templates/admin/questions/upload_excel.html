@@ -1,0 +1,90 @@
+{% extends "admin/base_site.html" %}
+{% block content %}
+    <div class="header-section">
+        <h2>Excel ile Sorular Yükle</h2>
+    </div>
+    <style>
+        .header-section {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header-section h2 {
+            color: #343a40;
+            font-family: 'Arial', sans-serif;
+        }
+        .info-section {
+            background-color: #fff3cd;
+            padding: 15px;
+            border: 1px solid #ffeeba;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .info-section p {
+            color: #856404;
+            font-family: 'Arial', sans-serif;
+            margin: 0; /* Ensure no default margin is applied */
+        }
+        .button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+    </style>
+    <div class="info-section">
+        <p class="info-text">Burada Excel dosyası ile sorular oluşturulur. Excel dosyanızı yükledikten sonra, bir sonraki aşamada size, oluşturduğunuz Excel dosyasındaki sütunları, soruların oluşturulmasında kullanılan sütunlar ile eşleştirmeniz istenecektir. Eğer zaten oluşturulmuş aynı sınav yılı, sınav türü, dersi, soru numarası olan soru/sorular var ise, halihazırda oluşturulmuş sorular yeni değerler ile güncellenir. Eğer Excel tablonuzda olmayan bir bölüm için size eşleştirme yapmanız isteniyorsa, örneğin <span style="font-weight: bolder;">'Video Çözüm URL'sini Atla:'</span> butonuna tıklayabilirsiniz.</p>
+    </div>
+    <div class="info-section">
+        <p class="info-text"><p style="color: red; font-weight: bold;">Ders isimlerinin <span style="font-weight: bolder;">'Konular' sayfasındaki isimlerle eşleşmesi gerekmektedir.</span></p>
+    </div>
+    <form method="post" enctype="multipart/form-data" class="upload-form">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="button">Yükle</button>
+    </form>
+    <style>
+        .upload-form {
+            background-color: #ffffff;
+            color: #000;
+            padding: 30px;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .upload-form input[type="file"] {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            width: 100%;
+        }
+        .upload-form .button {
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding: 15px;
+            font-size: 16px;
+            font-weight: bold;
+            background-color: #28a745;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .upload-form .button:hover {
+            background-color: #218838;
+        }
+    </style>
+{% endblock %}

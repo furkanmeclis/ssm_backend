@@ -1,0 +1,74 @@
+{% extends "admin/base_site.html" %}
+{% block content %}
+  <h2>Yükleme Geçmişi</h2>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Kullanıcı</th>
+        <th>Durum</th>
+        <th>Mesaj</th>
+        <th>Oluşturulma Tarihi</th>
+        <th>Detaylar</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for upload in uploads %}
+        <tr>
+          <td>{{ upload.id }}</td>
+          <td>{{ upload.user.email }}</td>
+          <td>{{ upload.status }}</td>
+          <td>{{ upload.message|truncatewords:15 }}</td>
+          <td>{{ upload.created_at }}</td>
+          <td><a href="#" onclick="showDetails('{{ upload.id }}')">Detayları Görüntüle</a></td>
+        </tr>
+      {% empty %}
+        <tr>
+          <td colspan="6">Herhangi bir yükleme bulunamadı.</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <!-- Sayfalama kontrolleri -->
+  <div class="pagination">
+    <span class="step-links">
+        {% if uploads.has_previous %}
+            <a href="?page=1">&laquo; ilk</a>
+            <a href="?page={{ uploads.previous_page_number }}">önceki</a>
+        {% endif %}
+
+        <span class="current">
+            Sayfa {{ uploads.number }} / {{ uploads.paginator.num_pages }}.
+        </span>
+
+        {% if uploads.has_next %}
+            <a href="?page={{ uploads.next_page_number }}">sonraki</a>
+            <a href="?page={{ uploads.paginator.num_pages }}">son &raquo;</a>
+        {% endif %}
+    </span>
+  </div>
+
+  <div id="details-modal" class="modal">
+    <div class="modal-content">
+      <span id="close-modal" class="close">&times;</span>
+      <h2>Yükleme Detayları</h2>
+      <pre id="details-content"></pre>  <!-- Use <pre> to preserve formatting of errors and success logs -->
+    </div>
+  </div>
+
+  <script>
+    function showDetails(uploadId) {
+      fetch(`/api/v1/upload-history/details/${uploadId}/`)
+        .then(response => response.json())
+        .then(data => {
+          document.getElementById('details-content').textContent = data.message;  // Display the detailed message
+          document.getElementById('details-modal').style.display = 'block';
+        });
+    }
+  
+    document.getElementById('close-modal').addEventListener('click', function () {
+      document.getElementById('details-modal').style.display = 'none';
+    });
+  </script>
+{% endblock %}
